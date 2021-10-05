@@ -45,4 +45,70 @@ p {
   background-color: blue;
 }
 
+.redStrip {
+  width: 80px;
+  background-color: red;
+}
+
+.redLong {
+  width: 200px;
+  background-color: red;
+  justify-content: flex-start;
+}
+
+.redSquare {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.centerPush {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.blueStrip {
+  width: 80px;
+  height: 60px;
+  background-color: blue;
+}
+
+.greenExample {
+  flex: 1;
+  background-color: green;
+  align-self: center;
+}
+
+.spacing {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+}
+
+.orange {
+  width: 100px;
+  background-color: orange;
+}
+
+.orangeBack {
+  display: flex;
+  flex: 1;
+  background-color: orange;
+  justify-content: space-around;
+}
+
+.green {
+  width: 100px;
+  background-color: green;
+}
+
 /* TODO: Add CSS for the rest of your solution below */
