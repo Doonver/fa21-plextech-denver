@@ -4,12 +4,23 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Assignment2</title>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js" crossorigin="anonymous"></script>
+		<!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
 	</head>
 	<body>
 		<!-- Your Assignment2 HTML Structure Here  -->
-		
+		<div class="container">
+			<h2>City: <span id="location">Location Not Found</span></h2>
+			<h2>Description: <span class="desc">No Desc Found</span></h2>
+			<div class="weather">
+				<h2>Current Temperature: <span class="f">No Temp Found</span></h2>
+				<div class="circle"></div>
+			</div>
+			<div class="info">
+				<h2>Sunrise: <span class="sunrise">Error</span></h2>
+				<h2>Sunset: <span class="sundown">Error</span></h2>
+			</div>
+		</div>
 		<!-- load script after body elements, feel free to play around with this -->
 		<script type="text/javascript" src="index.js"></script>
 	</body>
