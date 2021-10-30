@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './button.js';
 
+<<<<<<< HEAD
 import React, { Component } from 'react';
 
 export default class App extends Component {
@@ -38,5 +39,13 @@ render() {
       </div>
     );
   }
+=======
+function App() {
+  return (
+    <div className="App">
+      
+    </div>
+  );
+>>>>>>> e811351528233adb8e7cee8305e084ee47c0ccd3
 }
 
